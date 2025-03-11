@@ -14,7 +14,7 @@ Singelton Pattern Cocok digunakan :
 - Akses ke API
   Dalam situasi di mana aplikasi berinteraksi dengan layanan eksternal atau API yang memerlukan kredensial atau pengaturan yang konsisten, Anda bisa menggunakan Singleton untuk memastikan bahwa hanya ada satu objek yang menangani komunikasi dengan layanan tersebut.
   
-## 3. Kelebihan dan Kekurangan Command Pattern
+## 3. Kelebihan dan Kekurangan Singelton 
 
 | **Kelebihan** | **Kekurangan** |
 |--------------|--------------|
