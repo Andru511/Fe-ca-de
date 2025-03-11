@@ -4,7 +4,7 @@
 adalah salah satu pola desain (design pattern) yang memastikan hanya ada satu instance (contoh objek) dari sebuah kelas yang dibuat selama siklus hidup aplikasi dan memberikan akses global ke instance tersebut.
 
 ## 2. Kapan  Perlu Digunakan?
-Command Pattern cocok digunakan dalam situasi berikut:
+Singelton Pattern Cocok digunakan : 
 - Koneksi Database
   Ketika aplikasi membutuhkan koneksi ke database dan Anda ingin memastikan bahwa hanya ada satu koneksi yang digunakan selama siklus hidup aplikasi, maka Singleton pattern sangat cocok.
   
@@ -18,9 +18,9 @@ Command Pattern cocok digunakan dalam situasi berikut:
 
 | **Kelebihan** | **Kekurangan** |
 |--------------|--------------|
-| Memisahkan objek yang meminta perintah dari objek yang menjalankannya | Bisa menambah kompleksitas kode jika tidak diperlukan |
-| Memudahkan implementasi fitur undo/redo | Membutuhkan lebih banyak kelas dibandingkan metode langsung |
-| Memungkinkan perekaman dan eksekusi perintah secara terstruktur | Bisa mempengaruhi performa jika perintah disimpan dalam jumlah besar |
+| memberikan cara untuk mengakses instance dari kelas di seluruh aplikasi tanpa perlu membuat objek baru di setiap titik penggunaan | Ketergantungan yang Tinggi  |
+|Kontrol Sumber Daya | Masalah Skalabilitas |
+| Penghematan Memori  | Tidak Fleksibel |
 
 ## 4. Contoh Implementasi Command Pattern dalam Java
 
