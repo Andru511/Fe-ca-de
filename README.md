@@ -1,8 +1,7 @@
-# Singleton
-# Command Pattern dalam Java
+# Singleton 
 
 ## 1. Penjelasan tentang Command Pattern
-Command Pattern adalah pola desain perilaku (behavioral design pattern) yang mengubah permintaan atau perintah menjadi objek yang dapat dieksekusi, disimpan, atau dikembalikan nanti. Pola ini berguna dalam mengimplementasikan undo/redo, log transaksi, dan queueing sistem.
+adalah salah satu pola desain (design pattern) yang memastikan hanya ada satu instance (contoh objek) dari sebuah kelas yang dibuat selama siklus hidup aplikasi dan memberikan akses global ke instance tersebut.
 
 ## 2. Kapan Command Pattern Perlu Digunakan?
 Command Pattern cocok digunakan dalam situasi berikut:
