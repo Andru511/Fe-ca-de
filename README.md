@@ -1,4 +1,4 @@
-# Fe-ca-de
+#Singleton
 # Command Pattern dalam Java
 
 ## 1. Penjelasan tentang Command Pattern
