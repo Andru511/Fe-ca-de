@@ -18,7 +18,7 @@ Singelton Pattern Cocok digunakan :
 
 | **Kelebihan** | **Kekurangan** |
 |--------------|--------------|
-| memberikan cara untuk mengakses instance dari kelas di seluruh aplikasi tanpa perlu membuat objek baru di setiap titik penggunaan | Ketergantungan yang Tinggi  |
+| Penggunaan Global Instance | Ketergantungan yang Tinggi  |
 |Kontrol Sumber Daya | Masalah Skalabilitas |
 | Penghematan Memori  | Tidak Fleksibel |
 
