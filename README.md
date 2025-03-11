@@ -1,15 +1,19 @@
 # Singleton 
 
-## 1. Penjelasan tentang Command Pattern
+## 1. Penjelasan
 adalah salah satu pola desain (design pattern) yang memastikan hanya ada satu instance (contoh objek) dari sebuah kelas yang dibuat selama siklus hidup aplikasi dan memberikan akses global ke instance tersebut.
 
-## 2. Kapan Command Pattern Perlu Digunakan?
+## 2. Kapan  Perlu Digunakan?
 Command Pattern cocok digunakan dalam situasi berikut:
-- Saat kita ingin menyimpan daftar perintah yang bisa dieksekusi ulang (undo/redo).
-- Dalam sistem menu UI di mana setiap tindakan pengguna harus bisa dieksekusi ulang atau dibatalkan.
-- Dalam aplikasi game untuk mengelola input pemain sebagai kumpulan perintah yang bisa dianalisis.
-- Dalam sistem multi-threading, untuk menunda atau mengantri eksekusi perintah.
-
+- Koneksi Database
+  Ketika aplikasi membutuhkan koneksi ke database dan Anda ingin memastikan bahwa hanya ada satu koneksi yang digunakan selama siklus hidup aplikasi, maka Singleton pattern sangat cocok.
+  
+- Konfigurasi Global
+  Ketika aplikasi  memiliki pengaturan atau konfigurasi global yang perlu diakses di berbagai bagian aplikasi (misalnya pengaturan API, pengaturan sistem, atau pengaturan aplikasi lainnya
+  
+- Akses ke API
+  Dalam situasi di mana aplikasi berinteraksi dengan layanan eksternal atau API yang memerlukan kredensial atau pengaturan yang konsisten, Anda bisa menggunakan Singleton untuk memastikan bahwa hanya ada satu objek yang menangani komunikasi dengan layanan tersebut.
+  
 ## 3. Kelebihan dan Kekurangan Command Pattern
 
 | **Kelebihan** | **Kekurangan** |
