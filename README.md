@@ -42,7 +42,7 @@ Penghematan Memori Karena hanya ada satu instance yang digunakan di seluruh apli
 
 
 
-## 4. Contoh Implementasi Command Pattern dalam Java
+## 4. Contoh Implementasi  dalam Java
 
 ```class Database {
     private static Database dbObject;
