@@ -24,89 +24,33 @@ Singelton Pattern Cocok digunakan :
 
 ## 4. Contoh Implementasi Command Pattern dalam Java
 
-```java
-// Interface Command
-interface Command {
-    void execute();
-}
+```class Database {
+    private static Database dbObject;
 
-// Kelas Receiver (Penerima Perintah)
-class Light {
-    void turnOn() {
-        System.out.println("Lampu menyala");
+    private Database() {      
     }
 
-    void turnOff() {
-        System.out.println("Lampu mati");
-    }
-}
-
-// Concrete Command untuk menyalakan lampu
-class LightOnCommand implements Command {
-    private Light light;
-
-    public LightOnCommand(Light light) {
-        this.light = light;
+    public static Database getInstance() {
+        if(dbObject == null) {
+            dbObject = new Database();
+        }
+        return dbObject;
     }
 
-    @Override
-    public void execute() {
-        light.turnOn();
-    }
-}
-
-// Concrete Command untuk mematikan lampu
-class LightOffCommand implements Command {
-    private Light light;
-
-    public LightOffCommand(Light light) {
-        this.light = light;
+    public void getConnection() {
+        System.out.println("You are now connected to the database.");
     }
 
-    @Override
-    public void execute() {
-        light.turnOff();
-    }
-}
-
-// Invoker (Pengendali perintah)
-class RemoteControl {
-    private Command command;
-
-    public void setCommand(Command command) {
-        this.command = command;
-    }
-
-    public void pressButton() {
-        command.execute();
-    }
-}
-
-// Main Class
-public class CommandPatternExample {
     public static void main(String[] args) {
-        Light lampu = new Light();
-        Command turnOn = new LightOnCommand(lampu);
-        Command turnOff = new LightOffCommand(lampu);
-
-        RemoteControl remote = new RemoteControl();
-        remote.setCommand(turnOn);
-        remote.pressButton(); // Output: Lampu menyala
-
-        remote.setCommand(turnOff);
-        remote.pressButton(); // Output: Lampu mati
+        Database db1 = Database.getInstance();
+        db1.getConnection();
     }
 }
+
 ```
 
-## 5. Output Program
+## 5. Output dari Program
 ```
-Lampu menyala
-Lampu mati
+You are now connected to the database.
 ```
 
-## 6. Sumber Referensi
-- [Refactoring Guru - Command Pattern](https://refactoring.guru/design-patterns/command)
-- [Geeks for Geeks - Command Pattern in Java](https://www.geeksforgeeks.org/command-pattern/)
-- [TutorialsPoint - Command Pattern](https://www.tutorialspoint.com/design_pattern/command_pattern.htm)
--
