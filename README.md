@@ -34,6 +34,13 @@ Singelton Pattern Cocok digunakan :
 |Kontrol Sumber Daya | Masalah Skalabilitas |
 | Penghematan Memori  | Tidak Fleksibel |
 
+Penggunaan Global Instance Singleton memberikan cara untuk mengakses instance dari kelas di seluruh aplikasi tanpa perlu membuat objek baru di setiap titik penggunaan. Ini memudahkan penggunaan global karena instance tersebut dapat diakses dari mana saja di dalam aplikasi.
+
+Singleton memastikan bahwa hanya ada satu instance dari sebuah kelas yang dibuat. Ini sangat berguna ketika Anda perlu mengelola sumber daya terbatas, seperti koneksi database, file, atau perangkat keras lainnya. Hal ini menghindari pemborosan sumber daya dengan menciptakan banyak objek yang sebenarnya tidak diperlukan.
+
+Penghematan Memori Karena hanya ada satu instance yang digunakan di seluruh aplikasi, penggunaan memori menjadi lebih efisien, terutama jika objek tersebut besar atau membutuhkan banyak sumber daya.
+
+
 ## 4. Contoh Implementasi Command Pattern dalam Java
 
 ```class Database {
