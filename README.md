@@ -41,6 +41,7 @@ Singleton memastikan bahwa hanya ada satu instance dari sebuah kelas yang dibuat
 Penghematan Memori Karena hanya ada satu instance yang digunakan di seluruh aplikasi, penggunaan memori menjadi lebih efisien, terutama jika objek tersebut besar atau membutuhkan banyak sumber daya.
 
 
+
 ## 4. Contoh Implementasi Command Pattern dalam Java
 
 ```class Database {
