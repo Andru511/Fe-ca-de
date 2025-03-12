@@ -6,6 +6,15 @@
 ## 1. Penjelasan
 adalah salah satu pola desain (design pattern) yang memastikan hanya ada satu instance (contoh objek) dari sebuah kelas yang dibuat selama siklus hidup aplikasi dan memberikan akses global ke instance tersebut.
 
+Menggunakan pola Singleton ketika  perlu memastikan bahwa hanya ada satu instance dari sebuah kelas dalam aplikasi Anda.
+
+Gunakan pola ini ketika Anda ingin menyediakan cara yang sederhana bagi klien untuk mengakses instance tersebut dari lokasi tertentu dalam kode .
+
+Jika Anda berpikir bahwa Anda mungkin ingin memperluas kelas di kemudian hari, pola Singleton adalah pilihan yang baik. Pola ini memungkinkan subclassing, sehingga klien dapat bekerja dengan versi yang diperluas tanpa mengubah Singleton asli.
+
+Pola ini sering digunakan dalam situasi seperti pencatatan (logging), mengelola koneksi ke perangkat keras atau basis data, caching data, atau menangani thread pool, di mana memiliki hanya satu instance sangat masuk akal.
+
+
 ## 2. Kapan  Perlu Digunakan?
 Singelton Pattern Cocok digunakan : 
 - Koneksi Database
