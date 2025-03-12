@@ -66,3 +66,9 @@ Singelton Pattern Cocok digunakan :
 You are now connected to the database.
 ```
 
+## 6. Reference 
+```````
+https://www.geeksforgeeks.org/prototype-design-pattern/
+https://www.programiz.com/java-programming/singleton#:~:text=In%20Java%2C%20Singleton%20is%20a,creation%20outside%20of%20the%20class
+https://www.codepolitan.com/blog/mengenal-dan-belajar-design-pattern-singleton/
+``````
