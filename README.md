@@ -6,7 +6,7 @@
 ## 1. Penjelasan
 adalah salah satu pola desain (design pattern) yang memastikan hanya ada satu instance (contoh objek) dari sebuah kelas yang dibuat selama siklus hidup aplikasi dan memberikan akses global ke instance tersebut.
 
-Menggunakan pola Singleton ketika  perlu memastikan bahwa hanya ada satu instance dari sebuah kelas dalam aplikasi Anda.
+#2 Menggunakan pola Singleton ketika  perlu memastikan bahwa hanya ada satu instance dari sebuah kelas dalam aplikasi Anda.
 
 Gunakan pola ini ketika Anda ingin menyediakan cara yang sederhana bagi klien untuk mengakses instance tersebut dari lokasi tertentu dalam kode .
 
