@@ -9,13 +9,13 @@ adalah salah satu pola desain (design pattern) yang memastikan hanya ada satu in
 ## 2. Kapan  Perlu Digunakan?
 Singelton Pattern Cocok digunakan : 
 - Koneksi Database
-  Ketika aplikasi membutuhkan koneksi ke database dan Anda ingin memastikan bahwa hanya ada satu koneksi yang digunakan selama siklus hidup aplikasi, maka Singleton pattern sangat cocok.
+  Ketika aplikasi membutuhkan koneksi ke database dan ingin memastikan bahwa hanya ada satu koneksi yang digunakan selama siklus hidup aplikasi, maka Singleton pattern sangat cocok.
   
 - Konfigurasi Global
-  Ketika aplikasi  memiliki pengaturan atau konfigurasi global yang perlu diakses di berbagai bagian aplikasi (misalnya pengaturan API, pengaturan sistem, atau pengaturan aplikasi lainnya
+  Ketika aplikasi  memiliki pengaturan atau konfigurasi global yang perlu diakses di berbagai bagian aplikasi (misalnya pengaturan API, pengaturan sistem, atau pengaturan aplikasi lainnya)
   
 - Akses ke API
-  Dalam situasi di mana aplikasi berinteraksi dengan layanan eksternal atau API yang memerlukan kredensial atau pengaturan yang konsisten, Anda bisa menggunakan Singleton untuk memastikan bahwa hanya ada satu objek yang menangani komunikasi dengan layanan tersebut.
+  Dalam situasi di mana aplikasi berinteraksi dengan layanan eksternal atau API yang memerlukan kredensial tau pengaturan yang konsisten,  Singleton dapat memastikan bahwa hanya ada satu objek yang menangani komunikasi dengan layanan tersebut.
   
 ## 3. Kelebihan dan Kekurangan Singelton 
 
