@@ -1,8 +1,8 @@
 # Singleton 
 # Nama Kelompok
 - Andru                     (23100009)
-- Pingo                     
-- Dennis Hansen Stutanto     
+- Sylvinho Noviyan Wijaya   (                     
+- Dennis Hansen Stutanto    ( 
 ## 1. Penjelasan
 adalah salah satu pola desain (design pattern) yang memastikan hanya ada satu instance (contoh objek) dari sebuah kelas yang dibuat selama siklus hidup aplikasi dan memberikan akses global ke instance tersebut.
 
